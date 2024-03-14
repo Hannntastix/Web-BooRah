@@ -1,0 +1,652 @@
+body {
+  font-family: Arial, sans-serif;
+  width:auto;
+  margin: 0;
+  padding: 0;
+  background-color: #010834;
+  height: auto;
+}
+
+header {
+  background-color: #333;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width:476) {
+  
+}
+@media screen and (max-width: 600px) {
+.ul-navbar {
+    flex-wrap: wrap; 
+  margin-left:-30px;
+}
+
+.li-navbar,
+.li-navbat,
+.li-navbae {
+    margin: 10px 5px; 
+    font-size: 8px; 
+}
+.table{
+  margin-top:250px;
+  width:auto;
+}
+.tombolkanan{
+  font-size:5px;    
+}
+.teksawal {
+    height: auto; 
+    padding: 20px; 
+    border-radius: 0px; 
+    box-shadow: none; 
+    margin-right:-10px;
+    width:90.2%;
+  -webkit-box-shadow:0px 0px 15px -10px rgba(7, 2, 107, 0.9);
+  -moz-box-shadow: 0px 0px 15px -10px rgba(7, 2, 107, 0.9);
+  box-shadow: 0px 0px 15px -10px rgba(7, 2, 107, 0.9);
+}
+.content{
+  width:100%;
+  margin:auto;
+}
+.foto,
+.foto1,
+.foto2{
+  margin:0;
+  width:auto;
+}
+.greetings{
+  width:auto;
+  margin:0;
+}
+.greeting {
+    font-size: 40px; 
+    margin-left:0; 
+}
+.rekomendasi{
+  width:auto;
+  margin:0;
+}
+.btn {
+  margin-top: 40px;
+  border:7px solid aqua;
+  border-radius: 20px;
+  background:none;
+  cursor:pointer;
+  transition:0.8s;
+  position:relative;
+  font-family:"montserrat";
+  margin-left:30.5%;
+  width:auto;
+  padding:10px 15px;
+  font-size:20px;
+  }
+  .animasi{
+    width:auto;
+    margin:0;
+
+  }
+  .box{
+    width:
+  }
+  .btn1{
+    width:auto;
+  }
+.opening {
+  flex-direction: column; /* Mengubah tata letak menjadi vertikal */
+  height: auto; /* Mengubah tinggi menjadi otomatis */
+  width:30%;
+}
+
+.text,
+.poster {
+  width: 20%; /* Mengubah lebar menjadi 100% */
+}
+  .teks2{
+    font-size:40px;
+  }
+.teks1,
+.teks3 {
+  margin-left: 20px; /* Mengurangi margin kiri */
+  font-size: 10px; /* Mengurangi ukuran font */
+}
+
+.poster1 {
+  margin: 20px auto; /* Pusatkan gambar */
+  width: 80%; /* Mengurangi lebar gambar */
+  height: auto; /* Mengubah tinggi gambar menjadi otomatis */
+  border-radius: 10px; /* Mengurangi radius border */
+  box-shadow: none; /* Menghapus bayangan */
+}
+}
+@media screen and (min-width: 601px) and (max-width:768px) {
+  .ul-navbar {
+    flex-wrap: wrap; 
+    margin-left: -15px; 
+  }
+
+  .li-navbar,
+  .li-navbat,
+  .li-navbae {
+    margin: 10px 5px; 
+    font-size: 10px; 
+  }
+
+  .table {
+    margin-top: 200px;
+    width: auto;
+  }
+
+  .tombolkanan {
+    font-size: 7px; 
+  }
+
+  .teksawal {
+    height: auto; 
+    padding: 15px; 
+    border-radius: 0px; 
+    box-shadow: none; 
+    margin-right: -5px; 
+    width: 95%; 
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(7, 2, 107, 0.9);
+    -moz-box-shadow: 0px 0px 10px -5px rgba(7, 2, 107, 0.9);
+    box-shadow: 0px 0px 10px -5px rgba(7, 2, 107, 0.9);
+  }
+
+  .content {
+    width: 95%; 
+    margin: auto; 
+  }
+
+  .foto,
+  .foto1,
+  .foto2 {
+    margin: 0; 
+    width: 100%; 
+  }
+
+  .greetings {
+    width: auto; 
+    margin: 0; 
+  }
+
+  .greeting {
+    font-size: 30px; 
+    margin-left: 0;
+  }
+
+  .rekomendasi {
+    width: auto; 
+    margin: 0; 
+  }
+
+  .btn { 
+    font-size: 15px;
+    padding:5px 10px;
+    margin:auto;
+  }
+  .btn1{
+    width:auto;
+  }
+  .opening {
+    flex-direction: column; /* Mengubah tata letak menjadi vertikal */
+    height: auto; /* Mengubah tinggi menjadi otomatis */
+    width:30%;
+  }
+
+  .text,
+  .poster {
+    width: 20%; /* Mengubah lebar menjadi 100% */
+  }
+  .teks2{
+    font-size:40px;
+  }
+  .teks1,
+  .teks3 {
+    margin-left: 20px; /* Mengurangi margin kiri */
+    font-size: 10px; /* Mengurangi ukuran font */
+  }
+
+  .poster1 {
+    margin: 20px auto; /* Pusatkan gambar */
+    width: 100%; /* Mengurangi lebar gambar */
+    height: auto; /* Mengubah tinggi gambar menjadi otomatis */
+    border-radius: 10px; /* Mengurangi radius border */
+    box-shadow: none; /* Menghapus bayangan */
+  }
+}
+
+@keyframes move {
+  0%   {background-color:#b5b7f2; left:0px; top:0px;-webkit-box-shadow:0px 0px 50px 45px rgba(7, 2, 107, 0.9);
+      -moz-box-shadow: 0px 0px 50px 45px rgba(7, 2, 107, 0.9);
+      box-shadow: 0px 0px 50px 45px rgba(7, 2, 107, 0.9);}
+  25%  {background-color:#4469fd; left:200px; top:0px;-webkit-box-shadow:0px 0px 50px 45px rgba(7, 2, 107, 0.9);
+      -moz-box-shadow: 0px 0px 50px 45px rgba(7, 2, 107, 0.9);
+      box-shadow: 0px 0px 50px 45px rgba(7, 2, 107, 0.9);}
+  50%  {background-color:#2448ff;left:-200px;top:0px;-webkit-box-shadow:0px 0px 50px 45px rgba(7, 2, 107, 0.9);
+      -moz-box-shadow: 0px 0px 50px 45px rgba(7, 2, 107, 0.9);
+      box-shadow: 0px 0px 50px 45px rgba(7, 2, 107, 0.9);}
+  75%  {background-color:#02007a; left:-20px; top:0px;-webkit-box-shadow:0px 0px 50px 45px rgba(7, 2, 107, 0.9);
+      -moz-box-shadow: 0px 0px 50px 45px rgba(7, 2, 107, 0.9);
+      box-shadow: 0px 0px 50px 45px rgba(7, 2, 107, 0.9);}
+}
+.judul{
+  text-align: center;
+  font-size: 55px;
+  height: 100px;
+  margin-top: 25px;
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: rgba(222, 155, 11, 0.9) 0px 0px 39px;
+  color:rgb(238, 116, 9);
+}
+.teksawal{
+  background-color:rgb(67, 64, 236);
+  opacity: 1;
+  height:220px;
+  margin-top: -60px;
+  border-radius: 50px;
+  -webkit-box-shadow:0px 0px 105px 45px rgba(7, 2, 107, 0.9);
+  -moz-box-shadow: 0px 0px 105px 45px rgba(7, 2, 107, 0.9);
+  box-shadow: 0px 0px 105px 45px rgba(7, 2, 107, 0.9);
+  animation-name:move;
+  animation-duration:2s;
+}
+.ul-navbar{
+  margin-bottom: 20px;
+  display:flex;
+  justify-content: center;
+}
+.li-navbar{
+  border:1px solid rgb(0, 0, 0);
+  list-style-type: none;
+  padding:20px;
+  font-size: 25px;
+  color:#ffffff;
+  margin-left:200px;
+  margin-right:200px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: rgba(122, 121, 143, 0.9) 0px 0px 39px;
+  color:blue;
+  background-color: rgb(7, 2, 107, 0.9);
+  border-radius: 50px;
+  transition:0.5 ease;
+  opacity:1;
+}
+.li-navbar:hover{
+  opacity:0.5;
+}
+.li-navbat{
+  border:1px solid rgb(0, 0, 0);
+  list-style-type: none;
+  padding:20px;
+  font-size: 25px;
+  color:rgb(255, 255, 255);
+  margin-left:200px;
+  margin-right:200px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: rgba(122, 121, 143, 0.9) 0px 0px 39px;
+  color:blue;
+  background-color: rgb(7, 2, 107, 0.9);
+  border-radius: 50px;
+  transition:0.5 ease;
+  opacity:1;
+}
+.li-navbat:hover{
+  opacity:0.5;
+}
+.li-navbae{
+  border:1px solid rgb(0, 0, 0);
+  list-style-type: none;
+  padding:20px;
+  font-size: 25px;
+  color:rgb(255, 255, 255);
+  margin-left:200px;
+  margin-right:200px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: rgba(122, 121, 143, 0.9) 0px 0px 39px;
+  color:blue;
+  background-color: rgba(7, 2, 107, 0.9);
+  border-radius: 50px;
+  transition:0.5 ease;
+  opacity:1;
+}
+.li-navbae:hover{
+  opacity:0.5;
+}
+.table{
+  display: flex;
+  justify-content: right;
+}
+.tombolkanan{
+  width:-300px;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  font-size: 20px;
+  border:10px solid #01075b;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: #eeeeee;
+  color: #3145da;
+  transition:0.5 ease;
+  opacity:1;
+  cursor: pointer;
+  list-style-type: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.tombolkanan:hover{
+  opacity:0.5;
+  color: #2448ff;
+}
+.opening{
+  display: flex;
+  width:auto;
+  height:400px;
+  margin:0px;
+}
+.text{
+  background-color: #010834;
+  width:50%;
+  height:100%;
+}
+.teks1{
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left:100px;
+  margin-bottom: 0;
+  color: white;
+}
+.teks2{
+  font-size: 150px;
+  margin-left: 100px;
+  margin-top: 0px;
+  font-family: serif;
+  margin-bottom: 0px;
+  color: white;
+}
+.teks3{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left:100px;
+  margin-top: 0;
+  color: white;
+}
+.poster{
+  background-color: #010834;
+  width:50%;
+  height:100%;
+}
+.poster1{
+  border-radius: 20px;
+  margin-left:10px;
+  -webkit-box-shadow:0px 0px 50px 8px rgb(67, 64, 236);
+  -moz-box-shadow: 0px 0px 50px 8px rgb(67, 64, 236);
+  box-shadow: 0px 0px 50px 8px rgb(67, 64, 236);
+}
+.greetings{
+width:auto;
+margin:auto;
+margin-top: 100px;
+}
+.content{
+  background-color: #010834;
+  height:4000px;
+  margin-top: 100PX;
+  margin_left,
+  margin_right,
+  margin-bottom:50px;
+  animation-name: slideinleft;
+  animation-duration: 2s;
+  width:auto;
+
+}
+.greeting{
+  margin:auto;
+  color: rgb(0, 191, 255);
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.message{
+  margin: 30px;
+  text-align: center;
+  color:rgb(0, 191, 255);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.rekomendasi{
+  width:auto;
+  background-color: #010834;
+  margin-top: 250px;
+}
+
+.foto{
+  margin-left:29%;
+  border-radius: 20px;
+  max-width: 100%; /* Gambar tidak akan melebihi lebar elemen induknya */
+  height: auto; /* Menjaga proporsi gambar */
+  display: block; /* Memastikan foto diatur ke tata letak blok */
+  margin-left: auto; /* Menyamakan margin kiri dan kanan agar gambar berada di tengah */
+  margin-right: auto;
+  border-radius: 20px;
+  -webkit-box-shadow:0px 0px 50px 8px rgb(238, 116, 9);
+  -moz-box-shadow: 0px 0px 50px 8px rgb(238, 116, 9);
+  box-shadow: 0px 0px 50px 8px rgb(238, 116, 9);
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition:0.5s;
+}
+.foto:hover{
+  filter: grayscale(0%);
+}
+.name1{
+  color:rgb(0, 191, 255);
+  text-align: center;
+  font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: rgb(238, 116, 9) 10px 0px 39px;
+}
+.keterangan1{
+  color: rgb(0, 191, 255);
+  text-align: center;
+  display: none;
+  margin-bottom: 50px;
+  font-size: 20px;
+  margin-right:20px;
+  margin-left:20px;
+}
+.btn {
+margin-top: 40px;
+border:7px solid rgb(238, 116, 9);
+border-radius: 20px;
+background:none;
+cursor:pointer;
+transition:0.8s;
+position:relative;
+font-family:"montserrat";
+margin-left:30.5%;
+width:auto;
+padding:10px 15px;
+font-size:20px;
+}
+.btn1{
+  width:260px;
+  color: rgb(0, 191, 255);
+}
+
+.btn1:hover{
+  color:rgb(238, 116, 9);
+}
+.btn1::before{
+  content:"";
+  position:absolute;
+  left:0;
+  width:100%;
+  height:0%;
+  background:purple;
+  z-index:-1;
+  transition:0.8s;
+}
+
+.btn1::before{
+  top:0;
+  border-radius:0 0 50% 50%;
+}
+.btn1:hover::before{
+  height:200%;
+}
+.foto1{
+margin-left:29%;
+border-radius: 20px;
+max-width: 100%; /* Gambar tidak akan melebihi lebar elemen induknya */
+height: auto; /* Menjaga proporsi gambar */
+display: block; /* Memastikan foto diatur ke tata letak blok */
+margin-left: auto; /* Menyamakan margin kiri dan kanan agar gambar berada di tengah */
+margin-right: auto;
+border-radius: 20px;
+-webkit-box-shadow:0px 0px 50px 8px rgb(238, 116, 9);
+  -moz-box-shadow: 0px 0px 50px 8px rgb(238, 116, 9);
+  box-shadow: 0px 0px 50px 8px rgb(238, 116, 9);
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition:0.5s;
+}
+.foto1:hover{
+  filter: grayscale(0%);
+}
+.keterangan2{
+  color: rgb(0, 191, 255);
+  text-align: center;
+  display: none;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-right:20px;
+  margin-left:20px;
+}
+.btn2{
+  color:rgb(0, 191, 255);
+}
+.btn2:hover{
+  color:rgb(238, 116, 9);
+}
+.btn2::before{
+  content:"";
+  position:absolute;
+  left:0;
+  width:100%;
+  height:0%;
+  background:purple;
+  z-index:-1;
+  transition:0.8s;
+}
+
+.btn2::before{
+  top:0;
+  border-radius:0 0 50% 50%;
+}
+.btn2:hover::before{
+  height:200%;
+}
+.foto2{
+margin-left:29%;
+border-radius: 20px;
+max-width: 100%; 
+height: auto; 
+display: block; 
+margin-left: auto; 
+margin-right: auto;
+border-radius: 20px;
+-webkit-box-shadow:0px 0px 50px 8px rgb(238, 116, 9);
+  -moz-box-shadow: 0px 0px 50px 8px rgb(238, 116, 9);
+  box-shadow: 0px 0px 50px 8px rgb(238, 116, 9);
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition:0.5s;
+}
+.foto2:hover{
+  filter: grayscale(0%);
+}
+.keterangan3{
+  color: rgb(0, 191, 255);
+  text-align: center;
+  display: none;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-right:20px;
+  margin-left:20px;
+}
+.btn3{
+  color:rgb(0, 191, 255);
+}
+.btn3:hover{
+  color:rgb(238, 116, 9);
+}
+.btn3::before{
+  content:"";
+  position:absolute;
+  left:0;
+  width:100%;
+  height:0%;
+  background:purple;
+  z-index:-1;
+  transition:0.8s;
+}
+
+.btn3::before{
+  top:0;
+  border-radius:0 0 50% 50%;
+}
+.btn3:hover::before{
+  height:200%;
+}
+@keyframes slideinleft{
+  from{
+      transform:translateX(-100px);
+  }
+  to{
+      transform:translateX(0);
+  }
+}
+.box {
+  width: 600px;
+  height: 500px;
+  background-color: blue;
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1; 
+  transition: opacity 0.5s ease;
+}
+.animasi{
+  width:600px;
+  height:500px;
+  margin: auto;
+  display:flex;
+}
